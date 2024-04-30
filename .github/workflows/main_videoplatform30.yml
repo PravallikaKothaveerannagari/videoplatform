@@ -54,7 +54,6 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: python-app
-          path: ./apps/server/release.zip
 
       - name: Unzip artifact for deployment
         run: unzip release.zip
